@@ -22,18 +22,18 @@ const Wrapper = styled.div`
 const Text = styled.div`
 	color: ${props => props.theme.light.primary};
 	font-family: Muli, Helvetica, sans-serif;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	font-weight: bold;
 	width: 100%;
 `;
 
 const Line1 = styled.div`
 	background-color: #ff6651;
-	height: 0.3rem;
+	height: 0.2rem;
 	width: 100%;
 `;
 const Line2 = styled.div`
 	background-color: #ff6651;
-	height: 0.3rem;
+	height: 0.2rem;
 	width: 100%;
 `;

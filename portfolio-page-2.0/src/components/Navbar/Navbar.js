@@ -27,7 +27,7 @@ const Wrapper = styled.div`
 const Heading = styled.p`
 	color: white;
 	font-family: Muli, Helvetica, sans-serif;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	font-weight: bold;
 	margin: 0;
 	height: 4rem;
