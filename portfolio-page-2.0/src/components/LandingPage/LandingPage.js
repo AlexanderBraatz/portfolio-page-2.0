@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import HeadingHighlight from './HeadingHighlight';
+import LinkIcons from './LinkIcons';
 const LandingPage = props => {
 	return (
 		<Wrapper>
@@ -9,10 +10,13 @@ const LandingPage = props => {
 					<HeadingSection>Hi,</HeadingSection>
 					<HeadingSection>I`m</HeadingSection>
 					<HeadingSection>Alexander</HeadingSection>
-					<HeadingSection>|</HeadingSection>
+					{/* <HeadingSection>|</HeadingSection> */}
+				</HeadingWrapper>
+				<HeadingWrapper>
 					<HeadingHighlight value={'Web'} />
 					<HeadingHighlight value={'Developer'} />
 				</HeadingWrapper>
+				<LinkIcons />
 			</Content>
 		</Wrapper>
 	);
@@ -30,10 +34,10 @@ const Wrapper = styled.div`
 const Content = styled.div`
 	max-width: 100%;
 	margin: 0 auto;
-	padding: 1rem;
+	padding-left: 10rem;
+	padding-top: 20vh;
 `;
 const HeadingWrapper = styled.div`
-	padding-top: 20vh;
 	display: flex;
 `;
 const HeadingSection = styled.div`
