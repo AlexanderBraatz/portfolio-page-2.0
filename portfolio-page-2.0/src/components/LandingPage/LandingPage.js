@@ -41,6 +41,7 @@ const HeadingWrapper = styled.div`
 	display: flex;
 `;
 const HeadingSection = styled.div`
+	font-family: Muli, Helvetica, sans-serif;
 	color: ${props => props.theme.light.primary};
 	font-size: 6.5rem;
 	margin-right: 1.6rem;
